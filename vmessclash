@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-01-28 14:03:37
+# 创建时间：2024-01-28 21:07:14
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：12
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -89,12 +89,14 @@ proxies:
   - {"name":"test-ac-jp","type":"vmess","server":"acjp.cloudflarest.link","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
   - {"name":"test-acus","type":"vmess","server":"acus.cloudflarest.link","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
   - {"name":"test-youxuan","type":"vmess","server":"wz.weishao2023.dk.eu.org","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
+  - {"name":"test-achk","type":"vmess","server":"achk.cloudflarest.link","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
   - {"name":"test0128-youxuan","type":"vmess","server":"wz.weishao2023.dk.eu.org","port":443,"cipher":"auto","uuid":"af29ef0b-0ee6-4cf1-c225-9648c53ca4e3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0128-acjp","type":"vmess","server":"acjp.cloudflarest.link","port":443,"cipher":"auto","uuid":"af29ef0b-0ee6-4cf1-c225-9648c53ca4e3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0128-yuan","type":"vmess","server":"test0128.qianqingyu.top","port":443,"cipher":"auto","uuid":"af29ef0b-0ee6-4cf1-c225-9648c53ca4e3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0128-udemy","type":"vmess","server":"www.udemy.com","port":443,"cipher":"auto","uuid":"af29ef0b-0ee6-4cf1-c225-9648c53ca4e3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0128-FBI","type":"vmess","server":"fbi.gov","port":443,"cipher":"auto","uuid":"af29ef0b-0ee6-4cf1-c225-9648c53ca4e3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0128-acus","type":"vmess","server":"acus.cloudflarest.link","port":443,"cipher":"auto","uuid":"af29ef0b-0ee6-4cf1-c225-9648c53ca4e3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0128-achk","type":"vmess","server":"achk.cloudflarest.link","port":443,"cipher":"auto","uuid":"af29ef0b-0ee6-4cf1-c225-9648c53ca4e3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -105,12 +107,14 @@ proxy-groups:
       - test-ac-jp
       - test-acus
       - test-youxuan
+      - test-achk
       - test0128-youxuan
       - test0128-acjp
       - test0128-yuan
       - test0128-udemy
       - test0128-FBI
       - test0128-acus
+      - test0128-achk
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -121,12 +125,14 @@ proxy-groups:
       - test-ac-jp
       - test-acus
       - test-youxuan
+      - test-achk
       - test0128-youxuan
       - test0128-acjp
       - test0128-yuan
       - test0128-udemy
       - test0128-FBI
       - test0128-acus
+      - test0128-achk
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -137,12 +143,14 @@ proxy-groups:
       - test-ac-jp
       - test-acus
       - test-youxuan
+      - test-achk
       - test0128-youxuan
       - test0128-acjp
       - test0128-yuan
       - test0128-udemy
       - test0128-FBI
       - test0128-acus
+      - test0128-achk
   - name: 📲 电报信息
     type: select
     proxies:
@@ -152,12 +160,14 @@ proxy-groups:
       - test-ac-jp
       - test-acus
       - test-youxuan
+      - test-achk
       - test0128-youxuan
       - test0128-acjp
       - test0128-yuan
       - test0128-udemy
       - test0128-FBI
       - test0128-acus
+      - test0128-achk
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -167,12 +177,14 @@ proxy-groups:
       - test-ac-jp
       - test-acus
       - test-youxuan
+      - test-achk
       - test0128-youxuan
       - test0128-acjp
       - test0128-yuan
       - test0128-udemy
       - test0128-FBI
       - test0128-acus
+      - test0128-achk
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -182,12 +194,14 @@ proxy-groups:
       - test-ac-jp
       - test-acus
       - test-youxuan
+      - test-achk
       - test0128-youxuan
       - test0128-acjp
       - test0128-yuan
       - test0128-udemy
       - test0128-FBI
       - test0128-acus
+      - test0128-achk
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -214,12 +228,14 @@ proxy-groups:
       - test-ac-jp
       - test-acus
       - test-youxuan
+      - test-achk
       - test0128-youxuan
       - test0128-acjp
       - test0128-yuan
       - test0128-udemy
       - test0128-FBI
       - test0128-acus
+      - test0128-achk
 
 rules:
 # 本地/局域网地址
