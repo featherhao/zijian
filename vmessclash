@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-01-31 12:20:49
+# 创建时间：2024-02-01 17:02:02
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：9
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -93,6 +93,7 @@ proxies:
   - {"name":"test-cndyx","type":"vmess","server":"cdnyx.qianqingyu.top","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
   - {"name":"test-cndfd","type":"vmess","server":"cdnfd.qianqingyu.top","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
   - {"name":"🇰🇷中转｜韩国01","type":"vmess","server":"104.17.25.1","port":80,"cipher":"auto","uuid":"113a74cc-f13b-48ec-bbb2-2bbab77a2f35","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"","headers":{"host":"kr1.ljyyds.top"}}}
+  - {"name":"后补的香港","type":"vmess","server":"cf2.3666888.xyz","port":80,"cipher":"auto","uuid":"113a74cc-f13b-48ec-bbb2-2bbab77a2f35","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"","headers":{"host":"kr1.ljyyds.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -107,6 +108,7 @@ proxy-groups:
       - test-cndyx
       - test-cndfd
       - 🇰🇷中转｜韩国01
+      - 后补的香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -121,6 +123,7 @@ proxy-groups:
       - test-cndyx
       - test-cndfd
       - 🇰🇷中转｜韩国01
+      - 后补的香港
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -135,6 +138,7 @@ proxy-groups:
       - test-cndyx
       - test-cndfd
       - 🇰🇷中转｜韩国01
+      - 后补的香港
   - name: 📲 电报信息
     type: select
     proxies:
@@ -148,6 +152,7 @@ proxy-groups:
       - test-cndyx
       - test-cndfd
       - 🇰🇷中转｜韩国01
+      - 后补的香港
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -161,6 +166,7 @@ proxy-groups:
       - test-cndyx
       - test-cndfd
       - 🇰🇷中转｜韩国01
+      - 后补的香港
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -174,6 +180,7 @@ proxy-groups:
       - test-cndyx
       - test-cndfd
       - 🇰🇷中转｜韩国01
+      - 后补的香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,6 +211,7 @@ proxy-groups:
       - test-cndyx
       - test-cndfd
       - 🇰🇷中转｜韩国01
+      - 后补的香港
 
 rules:
 # 本地/局域网地址
