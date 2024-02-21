@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-02-02 21:59:08
+# 创建时间：2024-02-21 16:32:23
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：13
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,109 +85,130 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"test-yuanshi","type":"vmess","server":"test0124.qianqingyu.top","port":80,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
-  - {"name":"test-ac-jp","type":"vmess","server":"acjp.cloudflarest.link","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
-  - {"name":"test-acus","type":"vmess","server":"acus.cloudflarest.link","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
-  - {"name":"test-youxuan","type":"vmess","server":"wz.weishao2023.dk.eu.org","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
-  - {"name":"test-achk","type":"vmess","server":"achk.cloudflarest.link","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
-  - {"name":"test-cndyx","type":"vmess","server":"cdnyx.qianqingyu.top","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
-  - {"name":"test-cndfd","type":"vmess","server":"cdnfd.qianqingyu.top","port":443,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0124.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0124.qianqingyu.top"}}}
-  - {"name":"🇰🇷中转｜韩国01","type":"vmess","server":"104.17.25.1","port":80,"cipher":"auto","uuid":"113a74cc-f13b-48ec-bbb2-2bbab77a2f35","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"","headers":{"host":"kr1.ljyyds.top"}}}
-  - {"name":"后补的香港","type":"vmess","server":"cf2.3666888.xyz","port":80,"cipher":"auto","uuid":"113a74cc-f13b-48ec-bbb2-2bbab77a2f35","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"","headers":{"host":"kr1.ljyyds.top"}}}
-  - {"name":"test","type":"vmess","server":"[2a0e:97c0:3ea:109:0:1:2278:89dc]","port":80,"cipher":"auto","uuid":"a9f2bdf3-1734-448b-ebbc-70e0aa06de6a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/test"}}
+  - {"name":"test0203-1","type":"vmess","server":"104.18.182.168","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-2","type":"vmess","server":"104.17.238.124","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-3","type":"vmess","server":"104.18.203.233","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-4","type":"vmess","server":"104.24.137.151","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-5","type":"vmess","server":"104.18.47.236","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-6","type":"vmess","server":"104.19.195.198","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-alejandracaiccedo","type":"vmess","server":"alejandracaiccedo.com","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-cdnyx","type":"vmess","server":"cdnyx.qianqingyu.top","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-digitalocean","type":"vmess","server":"www.digitalocean.com","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fbi.gov","type":"vmess","server":"fbi.gov","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-ipv6","type":"vmess","server":"[2a01:d0:accb:0:1:0:10bc:27a0]","port":80,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/test"}}
+  - {"name":"test0203-udemy","type":"vmess","server":"www.udemy.com","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-yuan","type":"vmess","server":"test0128.qianqingyu.top","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - test-yuanshi
-      - test-ac-jp
-      - test-acus
-      - test-youxuan
-      - test-achk
-      - test-cndyx
-      - test-cndfd
-      - 🇰🇷中转｜韩国01
-      - 后补的香港
-      - test
+      - test0203-1
+      - test0203-2
+      - test0203-3
+      - test0203-4
+      - test0203-5
+      - test0203-6
+      - test0203-alejandracaiccedo
+      - test0203-cdnyx
+      - test0203-digitalocean
+      - test0203-fbi.gov
+      - test0203-ipv6
+      - test0203-udemy
+      - test0203-yuan
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - test-yuanshi
-      - test-ac-jp
-      - test-acus
-      - test-youxuan
-      - test-achk
-      - test-cndyx
-      - test-cndfd
-      - 🇰🇷中转｜韩国01
-      - 后补的香港
-      - test
+      - test0203-1
+      - test0203-2
+      - test0203-3
+      - test0203-4
+      - test0203-5
+      - test0203-6
+      - test0203-alejandracaiccedo
+      - test0203-cdnyx
+      - test0203-digitalocean
+      - test0203-fbi.gov
+      - test0203-ipv6
+      - test0203-udemy
+      - test0203-yuan
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - test-yuanshi
-      - test-ac-jp
-      - test-acus
-      - test-youxuan
-      - test-achk
-      - test-cndyx
-      - test-cndfd
-      - 🇰🇷中转｜韩国01
-      - 后补的香港
-      - test
+      - test0203-1
+      - test0203-2
+      - test0203-3
+      - test0203-4
+      - test0203-5
+      - test0203-6
+      - test0203-alejandracaiccedo
+      - test0203-cdnyx
+      - test0203-digitalocean
+      - test0203-fbi.gov
+      - test0203-ipv6
+      - test0203-udemy
+      - test0203-yuan
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - test-yuanshi
-      - test-ac-jp
-      - test-acus
-      - test-youxuan
-      - test-achk
-      - test-cndyx
-      - test-cndfd
-      - 🇰🇷中转｜韩国01
-      - 后补的香港
-      - test
+      - test0203-1
+      - test0203-2
+      - test0203-3
+      - test0203-4
+      - test0203-5
+      - test0203-6
+      - test0203-alejandracaiccedo
+      - test0203-cdnyx
+      - test0203-digitalocean
+      - test0203-fbi.gov
+      - test0203-ipv6
+      - test0203-udemy
+      - test0203-yuan
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - test-yuanshi
-      - test-ac-jp
-      - test-acus
-      - test-youxuan
-      - test-achk
-      - test-cndyx
-      - test-cndfd
-      - 🇰🇷中转｜韩国01
-      - 后补的香港
-      - test
+      - test0203-1
+      - test0203-2
+      - test0203-3
+      - test0203-4
+      - test0203-5
+      - test0203-6
+      - test0203-alejandracaiccedo
+      - test0203-cdnyx
+      - test0203-digitalocean
+      - test0203-fbi.gov
+      - test0203-ipv6
+      - test0203-udemy
+      - test0203-yuan
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - test-yuanshi
-      - test-ac-jp
-      - test-acus
-      - test-youxuan
-      - test-achk
-      - test-cndyx
-      - test-cndfd
-      - 🇰🇷中转｜韩国01
-      - 后补的香港
-      - test
+      - test0203-1
+      - test0203-2
+      - test0203-3
+      - test0203-4
+      - test0203-5
+      - test0203-6
+      - test0203-alejandracaiccedo
+      - test0203-cdnyx
+      - test0203-digitalocean
+      - test0203-fbi.gov
+      - test0203-ipv6
+      - test0203-udemy
+      - test0203-yuan
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -210,16 +231,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - test-yuanshi
-      - test-ac-jp
-      - test-acus
-      - test-youxuan
-      - test-achk
-      - test-cndyx
-      - test-cndfd
-      - 🇰🇷中转｜韩国01
-      - 后补的香港
-      - test
+      - test0203-1
+      - test0203-2
+      - test0203-3
+      - test0203-4
+      - test0203-5
+      - test0203-6
+      - test0203-alejandracaiccedo
+      - test0203-cdnyx
+      - test0203-digitalocean
+      - test0203-fbi.gov
+      - test0203-ipv6
+      - test0203-udemy
+      - test0203-yuan
 
 rules:
 # 本地/局域网地址
