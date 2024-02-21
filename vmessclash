@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-02-21 16:32:23
+# 创建时间：2024-02-22 00:30:03
 # 使用模版：V2RaySE 默认模版
-# 节点数量：13
+# 节点数量：28
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -92,12 +92,27 @@ proxies:
   - {"name":"test0203-5","type":"vmess","server":"104.18.47.236","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0203-6","type":"vmess","server":"104.19.195.198","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0203-alejandracaiccedo","type":"vmess","server":"alejandracaiccedo.com","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
-  - {"name":"test0203-cdnyx","type":"vmess","server":"cdnyx.qianqingyu.top","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-cdnyx_1","type":"vmess","server":"cdnyx.qianqingyu.top","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0203-digitalocean","type":"vmess","server":"www.digitalocean.com","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0203-fbi.gov","type":"vmess","server":"fbi.gov","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
   - {"name":"test0203-ipv6","type":"vmess","server":"[2a01:d0:accb:0:1:0:10bc:27a0]","port":80,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/test"}}
-  - {"name":"test0203-udemy","type":"vmess","server":"www.udemy.com","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
-  - {"name":"test0203-yuan","type":"vmess","server":"test0128.qianqingyu.top","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test"}}
+  - {"name":"test0203-udemy_1","type":"vmess","server":"www.udemy.com","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-yuan_1","type":"vmess","server":"test0128.qianqingyu.top","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test"}}
+  - {"name":"test0203-cdnyx_2","type":"vmess","server":"cdnyx.qianqingyu.top","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-cdnfd","type":"vmess","server":"cdnfd.qianqingyu.top","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-FBI","type":"vmess","server":"fbi.gov","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-yuan_2","type":"vmess","server":"test0128.qianqingyu.top","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-udemy_2","type":"vmess","server":"www.udemy.com","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd1","type":"vmess","server":"14.102.228.8","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd2","type":"vmess","server":"116.203.58.165","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd3","type":"vmess","server":"141.98.197.137","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd4","type":"vmess","server":"5.75.214.65","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd5","type":"vmess","server":"20.218.125.181","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd6","type":"vmess","server":"3.121.77.56","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd7","type":"vmess","server":"20.218.125.181","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd8","type":"vmess","server":"77.37.33.30","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd9","type":"vmess","server":"128.140.59.187","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
+  - {"name":"test0203-fd10","type":"vmess","server":"49.13.150.80","port":443,"cipher":"auto","uuid":"02443c56-9aa3-431f-c0e0-8d58eb3b1135","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"test0128.qianqingyu.top","network":"ws","ws-opts":{"path":"/test","headers":{"host":"test0128.qianqingyu.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,12 +126,27 @@ proxy-groups:
       - test0203-5
       - test0203-6
       - test0203-alejandracaiccedo
-      - test0203-cdnyx
+      - test0203-cdnyx_1
       - test0203-digitalocean
       - test0203-fbi.gov
       - test0203-ipv6
-      - test0203-udemy
-      - test0203-yuan
+      - test0203-udemy_1
+      - test0203-yuan_1
+      - test0203-cdnyx_2
+      - test0203-cdnfd
+      - test0203-FBI
+      - test0203-yuan_2
+      - test0203-udemy_2
+      - test0203-fd1
+      - test0203-fd2
+      - test0203-fd3
+      - test0203-fd4
+      - test0203-fd5
+      - test0203-fd6
+      - test0203-fd7
+      - test0203-fd8
+      - test0203-fd9
+      - test0203-fd10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -130,12 +160,27 @@ proxy-groups:
       - test0203-5
       - test0203-6
       - test0203-alejandracaiccedo
-      - test0203-cdnyx
+      - test0203-cdnyx_1
       - test0203-digitalocean
       - test0203-fbi.gov
       - test0203-ipv6
-      - test0203-udemy
-      - test0203-yuan
+      - test0203-udemy_1
+      - test0203-yuan_1
+      - test0203-cdnyx_2
+      - test0203-cdnfd
+      - test0203-FBI
+      - test0203-yuan_2
+      - test0203-udemy_2
+      - test0203-fd1
+      - test0203-fd2
+      - test0203-fd3
+      - test0203-fd4
+      - test0203-fd5
+      - test0203-fd6
+      - test0203-fd7
+      - test0203-fd8
+      - test0203-fd9
+      - test0203-fd10
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -149,12 +194,27 @@ proxy-groups:
       - test0203-5
       - test0203-6
       - test0203-alejandracaiccedo
-      - test0203-cdnyx
+      - test0203-cdnyx_1
       - test0203-digitalocean
       - test0203-fbi.gov
       - test0203-ipv6
-      - test0203-udemy
-      - test0203-yuan
+      - test0203-udemy_1
+      - test0203-yuan_1
+      - test0203-cdnyx_2
+      - test0203-cdnfd
+      - test0203-FBI
+      - test0203-yuan_2
+      - test0203-udemy_2
+      - test0203-fd1
+      - test0203-fd2
+      - test0203-fd3
+      - test0203-fd4
+      - test0203-fd5
+      - test0203-fd6
+      - test0203-fd7
+      - test0203-fd8
+      - test0203-fd9
+      - test0203-fd10
   - name: 📲 电报信息
     type: select
     proxies:
@@ -167,12 +227,27 @@ proxy-groups:
       - test0203-5
       - test0203-6
       - test0203-alejandracaiccedo
-      - test0203-cdnyx
+      - test0203-cdnyx_1
       - test0203-digitalocean
       - test0203-fbi.gov
       - test0203-ipv6
-      - test0203-udemy
-      - test0203-yuan
+      - test0203-udemy_1
+      - test0203-yuan_1
+      - test0203-cdnyx_2
+      - test0203-cdnfd
+      - test0203-FBI
+      - test0203-yuan_2
+      - test0203-udemy_2
+      - test0203-fd1
+      - test0203-fd2
+      - test0203-fd3
+      - test0203-fd4
+      - test0203-fd5
+      - test0203-fd6
+      - test0203-fd7
+      - test0203-fd8
+      - test0203-fd9
+      - test0203-fd10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -185,12 +260,27 @@ proxy-groups:
       - test0203-5
       - test0203-6
       - test0203-alejandracaiccedo
-      - test0203-cdnyx
+      - test0203-cdnyx_1
       - test0203-digitalocean
       - test0203-fbi.gov
       - test0203-ipv6
-      - test0203-udemy
-      - test0203-yuan
+      - test0203-udemy_1
+      - test0203-yuan_1
+      - test0203-cdnyx_2
+      - test0203-cdnfd
+      - test0203-FBI
+      - test0203-yuan_2
+      - test0203-udemy_2
+      - test0203-fd1
+      - test0203-fd2
+      - test0203-fd3
+      - test0203-fd4
+      - test0203-fd5
+      - test0203-fd6
+      - test0203-fd7
+      - test0203-fd8
+      - test0203-fd9
+      - test0203-fd10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -203,12 +293,27 @@ proxy-groups:
       - test0203-5
       - test0203-6
       - test0203-alejandracaiccedo
-      - test0203-cdnyx
+      - test0203-cdnyx_1
       - test0203-digitalocean
       - test0203-fbi.gov
       - test0203-ipv6
-      - test0203-udemy
-      - test0203-yuan
+      - test0203-udemy_1
+      - test0203-yuan_1
+      - test0203-cdnyx_2
+      - test0203-cdnfd
+      - test0203-FBI
+      - test0203-yuan_2
+      - test0203-udemy_2
+      - test0203-fd1
+      - test0203-fd2
+      - test0203-fd3
+      - test0203-fd4
+      - test0203-fd5
+      - test0203-fd6
+      - test0203-fd7
+      - test0203-fd8
+      - test0203-fd9
+      - test0203-fd10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -238,12 +343,27 @@ proxy-groups:
       - test0203-5
       - test0203-6
       - test0203-alejandracaiccedo
-      - test0203-cdnyx
+      - test0203-cdnyx_1
       - test0203-digitalocean
       - test0203-fbi.gov
       - test0203-ipv6
-      - test0203-udemy
-      - test0203-yuan
+      - test0203-udemy_1
+      - test0203-yuan_1
+      - test0203-cdnyx_2
+      - test0203-cdnfd
+      - test0203-FBI
+      - test0203-yuan_2
+      - test0203-udemy_2
+      - test0203-fd1
+      - test0203-fd2
+      - test0203-fd3
+      - test0203-fd4
+      - test0203-fd5
+      - test0203-fd6
+      - test0203-fd7
+      - test0203-fd8
+      - test0203-fd9
+      - test0203-fd10
 
 rules:
 # 本地/局域网地址
